@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+form {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #cfdbd5;
+  margin-top: 15rem;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #cfdbd5;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+    
+    font-family: 'Poppins', sans-serif;
+  width: 100%;
+  background-color: #f8c12af6;
+  color: black;
+  font-size: 15px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  transition: 0.3s ease-in-out;
+  color: black;
+  background-color: #ffca3a;
+}
